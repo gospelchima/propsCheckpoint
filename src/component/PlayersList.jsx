@@ -12,3 +12,4 @@ const PlayersList = () => {
 };
 
 export default PlayersList;
+

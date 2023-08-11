@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  justify-content: space-between;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url("./assets/fifapls_fallbackimage_1200x630.webp");
+}
+

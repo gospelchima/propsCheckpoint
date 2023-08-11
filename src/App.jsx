@@ -7,14 +7,17 @@ import PlayersList from "./component/PlayersList";
 
 function App() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-      }}
-    >
-      <PlayersList />
+    <div>
+      <h1 style={{color:"white", marginBottom:"15px"}}>The Best FIFA Football Awards</h1>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <PlayersList />
+      </div>
     </div>
   );
 }
